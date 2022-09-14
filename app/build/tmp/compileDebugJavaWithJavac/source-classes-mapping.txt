@@ -1,0 +1,25 @@
+com/example/imageclassification/ImagesGallery.java
+ com.example.imageclassification.ImagesGallery
+com/example/imageclassification/BuildConfig.java
+ com.example.imageclassification.BuildConfig
+com/example/imageclassification/BenzerResim.java
+ com.example.imageclassification.BenzerResim
+ com.example.imageclassification.BenzerResim$1
+ com.example.imageclassification.BenzerResim$ImageAdapter
+com/example/imageclassification/MainActivity.java
+ com.example.imageclassification.MainActivity
+ com.example.imageclassification.MainActivity$1
+ com.example.imageclassification.MainActivity$2
+ com.example.imageclassification.MainActivity$3
+com/example/imageclassification/MainActivity2.java
+ com.example.imageclassification.MainActivity2
+ com.example.imageclassification.MainActivity2$1
+com/example/imageclassification/Classifier.java
+ com.example.imageclassification.Classifier
+ com.example.imageclassification.Classifier$1
+ com.example.imageclassification.Classifier$Recognition
+com/example/imageclassification/GalleryAdapter.java
+ com.example.imageclassification.GalleryAdapter
+ com.example.imageclassification.GalleryAdapter$1
+ com.example.imageclassification.GalleryAdapter$PhotoListener
+ com.example.imageclassification.GalleryAdapter$ViewHolder

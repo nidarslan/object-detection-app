@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imageclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:4:5-80
+11-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:5:5-81
+12-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:6:5-65
+13-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:7:5-67
+14-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:7:22-64
+15
+16    <application
+16-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:9:5-29:19
+17        android:allowBackup="true"
+17-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.2] C:\Users\miini\.gradle\caches\transforms-2\files-2.1\ceb4d25cfc1ca46b00fb17888e1833f2\core-1.3.2\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.ImageClassification" >
+25-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:15:9-57
+26        <activity
+26-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:16:9-18:40
+27            android:name="com.example.imageclassification.BenzerResim"
+27-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:17:13-40
+28            android:exported="false" />
+28-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:18:13-37
+29        <activity
+29-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:19:9-21:40
+30            android:name="com.example.imageclassification.MainActivity2"
+30-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:20:13-42
+31            android:exported="false" />
+31-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:21:13-37
+32        <activity android:name="com.example.imageclassification.MainActivity" >
+32-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:22:9-28:20
+32-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:22:19-47
+33            <intent-filter>
+33-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:24:17-69
+34-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:26:17-77
+36-->D:\Android Studio\NesneTanima\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
